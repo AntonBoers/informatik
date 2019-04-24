@@ -24,6 +24,9 @@ router.get('/quiz', function(req, res, next) {
 router.get('/reklamespil', function(req, res, next) {
   res.render('reklamespil', { title: 'Express' });
 });
+router.get('/apps', function(req, res, next) {
+  res.render('apps', { title: 'Express' });
+});
 
 
 module.exports = router;
